@@ -1,0 +1,492 @@
+@media(max-width:575px) {
+
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: 0px;
+    }
+
+
+    .icon {
+        outline: 0px;
+
+    }
+
+    #mynav ul {
+        background: #fff;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .posision_banner {
+        padding-top: 10px;
+    }
+
+    .banner_content {
+        text-align: center;
+        padding-top: 150px;
+
+    }
+
+    .banner_content h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .banner_content p {
+        margin-bottom: 30px;
+
+    }
+
+    .banner_content .btn1 {
+        padding: 10px 13px;
+        border-radius: 30px;
+
+        font-size: 14px;
+    }
+
+    .banner_content .btn1two {
+        padding: 10px 13px;
+        font-size: 14px;
+    }
+
+    .banner_content .btn1two:hover {
+        padding: 10px 13px;
+        border-radius: 30px;
+    }
+
+    .image {
+        max-width: 300px;
+
+    }
+
+
+    #about {
+        margin-top: 40px;
+    }
+
+    .about_right h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-size: 25px;
+
+    }
+
+    .about_left {
+        max-width: 370px;
+        margin-top: 270px;
+
+    }
+
+
+    .about_right {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .img_left:after {
+        top: -20px;
+        left: 130px;
+        height: 250px;
+        width: 200px;
+        background-image: none;
+
+    }
+
+    .about_right h4:after {
+        top: 5px;
+        left: 46%;
+        height: 30px;
+        width: 120px;
+
+    }
+
+    .about_right p {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+    }
+
+    .services_leftt,
+    .services_right {
+        margin: 20px 0;
+
+    }
+
+    #testimonial {
+        margin-bottom: 130px;
+    }
+
+    #news {
+        padding-top: 50px;
+    }
+
+    .all_testimonial {
+        margin-top: 20px;
+    }
+
+
+    .testimonial_whole {
+        color: #000;
+        width: 300px;
+        margin: auto;
+        padding: 60px 0;
+
+    }
+
+    .cause_itemm {
+        margin: 20px 0;
+    }
+
+    .all_contact:after {
+        top: 50px;
+        right: 0;
+        z-index: -1;
+        background-image: url('../images/contact-fiiters.png');
+        height: 300px;
+        width: 300px;
+        opacity: .2;
+
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    .footer_item,
+    .footer_right {
+        text-align: center !important;
+    }
+
+    .toptobottom {
+        right: 30px;
+        bottom: 50px;
+
+    }
+
+    .set-order-social{
+        order: 2;
+       
+    } 
+    .set-order-desc{
+        order: 1;
+    }
+    .set-order-social i{
+         display: inline-block;
+    }
+}
+
+
+@media(min-width:576px) and (max-width:767px) {
+    #mynav ul {
+        background: #fff;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+
+
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: 0px;
+    }
+
+
+    .posision_banner {
+        padding-top: 40px;
+    }
+
+    .banner_content {
+        padding-bottom: 70px;
+        padding-top: 120px;
+
+
+    }
+
+    #about {
+        margin-top: 40px;
+    }
+
+    .about_left {
+        margin-top: 220px;
+        padding: 70px 0;
+    }
+
+
+    .banner_content {
+        text-align: center;
+    }
+
+
+    .banner_content h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+
+    }
+
+    .banner_content p {
+        margin-bottom: 30px;
+
+    }
+
+    .image {
+        margin-top: 20px;
+        max-width: 300px;
+
+    }
+
+    .img_left:before {
+        top: 10px;
+
+    }
+
+    .img_left:after {
+        top: 20px;
+        left: 200px;
+        height: 250px;
+        width: 250px;
+
+    }
+
+    .about_right {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .about_right h4:after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: 46%;
+        height: 30px;
+        width: 120px;
+        border-radius: 30px;
+        z-index: -1;
+        opacity: .2;
+
+    }
+
+    .about_right p {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        display: block;
+    }
+
+    .about_right h4 {
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 9;
+        text-transform: uppercase;
+
+    }
+
+
+    .services_leftt,
+    .services_right {
+        margin: 20px 0;
+    }
+
+    .portfolio_item {
+        margin: 20px 0;
+    }
+
+    #testimonial {
+        margin-bottom: 220px;
+    }
+
+
+    .cause_itemm {
+        margin: 10px 0;
+    }
+
+    #services {
+        background-position: top 50% right 0px !important;
+
+    }
+
+    .all_contact {
+        background-position: top 50px right 0px !important;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    .footer_item,
+    .footer_right {
+        text-align: center !important;
+    }
+
+    .on_way_fioter {
+        text-align: center !important;
+    }
+
+    .toptobottom {
+        right: 30px;
+        bottom: 50px;
+
+    }
+     .set-order-social i{
+         display: inline-block;
+    }
+
+}
+
+
+
+@media(min-width:768px) and (max-width:991px) {
+
+
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: 0px;
+    }
+
+
+    #mynav ul {
+        background: #fff;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .banner_content {
+        color: #fff !important;
+
+    }
+
+    .posision_banner {
+        padding-top: 70px;
+    }
+
+
+    .banner_content h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+
+    }
+
+
+    .banner_content p {
+        margin-bottom: 30px;
+
+    }
+
+
+    .banner_content .btn1 {
+        padding: 10px 20px;
+        border-radius: 30px;
+        margin-right: 3px;
+        font-size: 12px;
+    }
+
+    .banner_content .btn1two {
+        padding: 10px 20px;
+        font-size: 12px;
+
+    }
+
+    #about {
+        margin-top: 30px;
+    }
+
+    .img_left:after {
+        top: -30px;
+        left: 120px;
+        height: 300px;
+        width: 230px;
+
+    }
+
+    .about_right {
+        margin-left: 20px;
+    }
+
+
+    .about_right p {
+        width: 300px;
+        margin-top: 20px;
+        color: #151D41;
+    }
+
+    .services_right,
+    .services_leftt {
+        margin: 20px;
+    }
+
+    .cause_itemm {
+        margin: 20px 0;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    .footer_item,
+    .footer_right {
+        text-align: center !important;
+    }
+
+    .on_way_fioter {
+        text-align: center !important;
+    }
+
+
+
+    .services_leftt {
+        padding: 30px 18px;
+    }
+
+    .services_leftt h3 {
+        font-size: 24px;
+    }
+
+    .services_right h3 {
+        font-size: 24px;
+    }
+
+    .services_leftt a {
+        margin-left: 12px;
+    }
+
+    .social_media i {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 14px;
+
+    }
+
+
+
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+
+    /*
+    .banner_content {
+        padding-top: 112px;
+    }
+*/
+    .banner_content {
+        padding-left: 30px;
+
+    }
+
+    .banner_content h1 {
+        font-size: 50px;
+
+
+        margin-bottom: 5px;
+    }
+
+
+    .banner_content p {
+        margin-bottom: 35px;
+    }
+
+    .banner_content .banner_button {}
+
+
+}
